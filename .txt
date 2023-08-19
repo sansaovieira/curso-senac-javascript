@@ -1,0 +1,17 @@
+ATIVIDADE DE REVISÃO HTML-CSS
+
+1) Criar uma pasta no Desktop chamada "curso-javascript"
+2) Em seguida, abra esta pasta no Visual Studio Code
+3) Crie um arquivo HTML chamado "revisao.html"
+4) Dentro dele, faça a estrutura geral do HTML. Dica: use o atalho ! e enter
+5) Crie um título nível 1 com seu nome completo
+6) Crie um título nível 2 com o nome do curso
+7) Crie um parágrafo com um texto qualquer.
+8) Faça um CSS interno (ou seja, dentro da própria página) e crie regras para mudar a cor do fundo da página e dos textos.
+9) Assim que acabar, abra no navegador 
+
+
+Configurações:
+word-wripe: Para eliminar a barra de rolagem.
+
+@senac.sp/
