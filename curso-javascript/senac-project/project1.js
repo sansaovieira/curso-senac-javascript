@@ -1,3 +1,5 @@
+'use strict'
+
 let square = document.getElementById('square')
 
 const colors = ['blue', 'green', 'orange'];
