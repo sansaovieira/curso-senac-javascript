@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Music Player</title>
+<style>
+	body {
+		font-family: "Segoe UI", Arial;
+	}
+	.container {
+		width: 80%;
+		max-width: 800px;
+		margin: auto;
+		padding: 1%;
+		border: solid 1px;
+		text-align: center;
+		background-color: white;
+	}
+
+</style>
+</head>
+<body>
+    <div class="container">
+      <h1>Music Player</h1>
+
+      <p>
+        <label for="lista-de-musicas">Músicas</label> <br>
+        <select name="lista-de-musicas" id="lista-de-musicas">
+          <option value=""></option>
+          <option value="../musicas/bytor.mp3">
+			By-Tor And Show Dog
+		  </option>
+          <option value="../musicas/subdivisions.mp3">
+			Subdivisions
+		  </option>
+          <option value="../musicas/the-garden.mp3">
+			The Garden
+		  </option>
+        </select>
+      </p>
+
+	  <!-- Elemento de áudio -->
+	  <audio controls></audio>
+
+      
+    </div>
+
+    
+    <script src="../js/13-prayer-mp3.js"></script>
+	
+</body>
+</html>
